@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Hyperlink example</title>
+</head>
+<body>
+    <h1>HTML Hyperlink Example</h1>
+    <!-- test link-->
+     <p>
+        visit our official website
+        <a href="https://adityauniversity.in/"target ="blank">Aditya University</a>
+     </p>
+     <!--image link-->
+        <p>
+            click the image to visit Aditya University official website
+            <a href="https://adityauniversity.in/" target="blank">
+                <img src="https://adityauniversity.in/assets/images/logo.png" alt="Aditya University Logo" width="200"/>
+            </a>
+</body>
+</html>
