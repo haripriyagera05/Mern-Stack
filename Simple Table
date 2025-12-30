@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Table</title>
+</head>
+<body>
+
+    <h2>Student Table</h2>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Hari Priya</td>
+            <td>101</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Minnu</td>
+            <td>102</td>
+            <td>85</td>
+        </tr>
+    </table>
+
+</body>
+</html>
