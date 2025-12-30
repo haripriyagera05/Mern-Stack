@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <title>Aditya University</title>
+</head>
+<body>
+    <h1>Schools</h1>
+    <hr>
+    <ol>
+        <li>School of Engineering</li>
+        <li>School of Management</li>
+        <li>School of Pharmacy</li>
+        <li>School of Agriculture</li>
+        <li>School of Business</li>
+    </ol>
+
+    <a href="https://adityauniversity.in/schools" target="_blank">Click here</a>
+    <br><br>
+    <img src="AUS logo.jpg" alt="AUS logo" width="200">
+</body>
+</html>
