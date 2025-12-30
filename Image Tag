@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+    <title>IMG TAG </title>
+</head>
+<body>
+    <h1>Img Tag </h1>
+    <a href="https://example.com/your-profile"target="_blank" rel="noopener noreferrer"title="Go to my profile">
+        <img src="male.jpg"alt="your name"/>
+    </a>
+     <a href="https://example.com/friend-profile"target="_blank" rel="noopener noreferrer"title="Go to my friend's profile">
+         <img src="female.jpg"alt="friend's name" width="200" height="200"/>
+     </a>
+</body> 
+</html>
