@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selector Forms</title>
+        <style>
+            /*Page background*/
+            body {
+                background-color:#f2f6ff;
+            }
+            /*=================*/
+            /*SIMPLE SELECTORS*/
+            /*=================*/
+            /*Element Selector*/
+            p {
+                color:blue;
+            }
+            /*ID Selector*/
+            #main-title {
+                color:darkred;
+                text-align:center;
+            }
+            /*Class Selector*/
+            .highlight {
+                background-color: lightyellow;
+            }
+            /*Group Selector*/
+            h2,h3 {
+                color:green;
+            }
+            /*Universal Selector*/
+            * {
+                font-family:Arial, Helvetica, sans-serif;
+            }
+            /*=====================*/
+            /*COMBINATOR SELECTORS*/
+            /*=====================*/
+            /*Descendant Selector*/
+            div p {
+                font-style:italic;
+            }
+            /*Child Selector*/
+            div>span {
+                color:purple;
+                font-weight:bold;
+            }
+            /*Adjacent Sibiling Selector*/
+            h3+p {
+                color:orange;
+            }
+            /*General Sibiling Selector*/
+            h3~p {
+                background-color:#e0e0e0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="main-title">CSS Selector Demonstraion</h1>
+        <h2> Simple Selectors</h2>
+        <p>This paragraph uses Element Selectors</p>
+        <p class="highlight">This paragraph uses Class Selector </p>
+        <h3> Group Selector Example</h3>
+        <div>
+            <p> Descendant Selector applied here</p>
+            <span>Child Selector applied here</span>
+        </div>
+        <h2> Combinator Selectors</h2>
+        <h3>Adjacent and General Sibiling</h3>
+        <p>This paragraph is adjacent sibiling</p>
+        <p>This paragraph is general sibiling</p>
+        <p>This paragraph is also general sibiling</p>
+    </body>
+</html>
